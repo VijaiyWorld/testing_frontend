@@ -11,7 +11,7 @@ async function sendMessage() {
 
   input.value = "";
 
-  const response = await fetch("https://fastapi-python-boilerplate-one-lovat.vercel.app/chat", {
+  const response = await fetch("https://testing-iota-gules.vercel.app/chat", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
